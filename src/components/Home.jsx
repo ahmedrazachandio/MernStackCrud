@@ -1,11 +1,14 @@
 import React from "react";
+import { Route, Routes, Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="mt-5">
+    <div className="homeDiv">
       <div className="container">
         <div className="add_btn mt-2">
-          <button className="btn btn-primary">Add Data</button>
+          <Link to={`/register`}>
+            <button className="btn btn-primary">Add Data</button>
+          </Link>
         </div>
         <table class="table mt-3">
           <thead>
@@ -26,9 +29,15 @@ const Home = () => {
               <td>ahmadraza@art.com</td>
               <td>92+3222665676</td>
               <td className="d-flex justify-content-between">
-                <button className="btn btn-success"><i class="fa-brands fa-readme"></i></button>
-                <button className="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i></button>
-                <button className="btn btn-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                <button className="btn btn-success">
+                  <i class="fa-brands fa-readme"></i>
+                </button>
+                <button className="btn btn-primary">
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+                <button className="btn btn-danger">
+                  <i class="fa-sharp fa-solid fa-trash"></i>
+                </button>
               </td>
             </tr>
             <tr>
@@ -38,9 +47,15 @@ const Home = () => {
               <td>ahmadraza@art.com</td>
               <td>92+3222665676</td>
               <td className="d-flex justify-content-between">
-                <button className="btn btn-success"><i class="fa-brands fa-readme"></i></button>
-                <button className="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i></button>
-                <button className="btn btn-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                <button className="btn btn-success">
+                  <i class="fa-brands fa-readme"></i>
+                </button>
+                <button className="btn btn-primary">
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+                <button className="btn btn-danger">
+                  <i class="fa-sharp fa-solid fa-trash"></i>
+                </button>
               </td>
             </tr>
           </tbody>
