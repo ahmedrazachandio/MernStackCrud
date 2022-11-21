@@ -11,8 +11,8 @@ const Footer = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2022 Copyright:
-        <a className="text-black" href="https://mdbootstrap.com/">
-          ahmedrazachandio.github.io
+        <a className="text-black" href="https://ahmedrazachandio.github.io/">
+          Ahmed Raza
         </a>
       </div>
     </footer>

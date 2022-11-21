@@ -26,19 +26,19 @@ footer {
 } */
 
 .homeDiv {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   padding-top: 50px;
 }
 
-header {
+/* header {
   height: 150px;
   position: fixed !important;
   top: 0px !important;
   width: 100%;
   margin-bottom: 20px;
   /* background-color:; */
-  backdrop-filter: blur(10px);
-}
+  /* backdrop-filter: blur(10px); */
+
 
 /* javascript mystery
 lamadev */
