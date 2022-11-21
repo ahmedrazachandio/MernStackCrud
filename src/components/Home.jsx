@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
             <button className="btn btn-primary">Add Data</button>
           </Link>
         </div>
-        <table class="table mt-3">
+        <table className="table mt-3">
           <thead>
             <tr className="table-dark">
               <th scope="col">Id</th>
@@ -30,13 +30,13 @@ const Home = () => {
               <td>92+3222665676</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success">
-                  <i class="fa-brands fa-readme"></i>
+                  <i className="fa-brands fa-readme"></i>
                 </button>
                 <button className="btn btn-primary">
-                  <i class="fa-regular fa-pen-to-square"></i>
+                  <i className="fa-regular fa-pen-to-square"></i>
                 </button>
                 <button className="btn btn-danger">
-                  <i class="fa-sharp fa-solid fa-trash"></i>
+                  <i className="fa-sharp fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
@@ -48,13 +48,13 @@ const Home = () => {
               <td>92+3222665676</td>
               <td className="d-flex justify-content-between">
                 <button className="btn btn-success">
-                  <i class="fa-brands fa-readme"></i>
+                  <i className="fa-brands fa-readme"></i>
                 </button>
                 <button className="btn btn-primary">
-                  <i class="fa-regular fa-pen-to-square"></i>
+                  <i className="fa-regular fa-pen-to-square"></i>
                 </button>
                 <button className="btn btn-danger">
-                  <i class="fa-sharp fa-solid fa-trash"></i>
+                  <i className="fa-sharp fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
