@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+.text-white{
+  color: white !important;
+}
 
 .add_btn {
   text-align: right;
