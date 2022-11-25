@@ -21,7 +21,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="Enter Your Name"
             onChange={setData}
-            value={}
+            // value={}
           />
         </div>
         <div className="mb-3 col-lg-6 col-md-6 col-12">
@@ -35,7 +35,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="ahmadraza.azt@gmail.com"
             onChange={setData}
-            value={}
+            // value={}
           />
         </div>
         <div className="mb-3 col-lg-6 col-md-6 col-12">
@@ -49,7 +49,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="Enter your Age"
             onChange={setData}
-            value={}
+            // value={}
           />
         </div>
         <div className="mb-3 col-lg-6 col-md-6 col-12">
@@ -63,7 +63,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="Enter your Mobile"
             onChange={setData}
-            value={}
+            // value={}
             />
         </div>
         <div className="mb-3 col-lg-6 col-md-6 col-12">
@@ -77,7 +77,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="Enter your work"
             onChange={setData}
-            value={}
+            // value={}
           />
         </div>
         <div className="mb-3 col-lg-6 col-md-6 col-12">
@@ -91,7 +91,7 @@ const Register = () => {
             id="exampleFormControlInput1"
             placeholder="Enter your address"
             onChange={setData}
-            value={}
+            // value={}
           />
         </div>
         <div className="mb-3">
